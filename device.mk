@@ -22,3 +22,4 @@ $(call inherit-product, vendor/samsung/a21s/a21s-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
